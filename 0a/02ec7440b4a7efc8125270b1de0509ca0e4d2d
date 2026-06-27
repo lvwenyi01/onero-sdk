@@ -1,0 +1,23 @@
+examples/generate_readme_gifs.py
+  s_a1b3fedf052a83::t_6eb1dc73b53aa2 541-542,549,551-553,555-556,581,588
+  s_a1b3fedf052a83::t_dc3605fd12ddd6 610-617,619-620,623-624,626
+  s_a1b3fedf052a83::t_dc379842cb430f 565-575
+  s_a1b3fedf052a83::t_fe79bee0222888 599-603,622,625
+  s_a1b3fedf052a83::t_c23528c7fe244a 578,580,585,587
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "0a02ec7440b4a7efc8125270b1de0509ca0e4d2d",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
