@@ -1,0 +1,149 @@
+examples/generate_readme_gifs.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 63,453,455,970
+  s_a1b3fedf052a83::t_7e967ce5fc07bb 7-9,35,45-62,64-90,93-94,97-256,261,265-270,272,341-342,363,380-384,397,449-452,454,456-459,465,481,485,487,490-492,508,513,519-521,538,540,546-547,570,572,596,598-599,605-607,617-618,634,636,652,658,665,673,676-677,684,702,704,731-733,736,740,751,784,786,813,815,827-829,832,835,851,853,872,879-880,904,917,920,935,938,950,1026
+  s_a1b3fedf052a83::t_87d1e756f658a0 91-92,95-96
+examples/kinematic_calibration_demo.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 137
+examples/speed_control.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 11
+tests/test_mounting_mujoco.py
+  s_a1b3fedf052a83::t_c87880485202dc 25-26,41-42,64-65,93,100,115,137,143,170-171,180,205-206,237,253-254,275-276
+ros2/onero_ros2/onero_ros2/arm_node.py
+  s_a1b3fedf052a83::t_f96520bdca31bb 48
+examples/06_state_monitoring.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 14
+examples/12_hardware_setup.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 57,84-85
+onero_sdk/dual_arm.py
+  s_a1b3fedf052a83::t_3de287abbca7d0 41
+  s_a1b3fedf052a83::t_7c84acab0e2e27 69,72,82,87
+docs/guide_getting_started.md
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 20,39,75,92
+examples/15_mounting.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 28,31,39,55,84,119,148
+examples/07_safe_stop.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 15,46
+examples/gripper_pick_place.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 99
+examples/mujoco_trajectory_comparison.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 363
+beavr/beavr_onero/robot_wrapper.py
+  s_a1b3fedf052a83::t_4938a1a7936734 55
+README_en.md
+  s_a1b3fedf052a83::t_1ec061d9de6556 520
+  s_a1b3fedf052a83::t_c156c2fc9b569a 57,81,103,130,152,190,209,243,269,287,304,327,363,408,429,462,562,605,612
+CONTEXT.md
+  s_a1b3fedf052a83::t_689cee1cbb3197 30
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_1bc18b8137f16d 46,49
+  s_a1b3fedf052a83::t_2444516537cf75 1341,1355
+  s_a1b3fedf052a83::t_b3b5b5fb5084b8 2059,2062,2064-2067
+  s_a1b3fedf052a83::t_5c42c9cc89410e 55
+  s_a1b3fedf052a83::t_6e76ebff0b6bcd 64
+examples/blending.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 10
+onero_sdk/config.py
+  s_a1b3fedf052a83::t_3b67d3e1018eca 16,20
+  s_a1b3fedf052a83::t_045cb9b33991eb 51,54
+lerobot/lerobot_robot_onero/lerobot_robot_onero/config_onero.py
+  s_a1b3fedf052a83::t_4938a1a7936734 22
+  s_a1b3fedf052a83::t_689cee1cbb3197 17
+examples/lerobot/01_lerobot_teleoperate.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 26-27
+onero_sdk/dual_mujoco_backend.py
+  s_a1b3fedf052a83::t_d27984b620be36 34
+  s_a1b3fedf052a83::t_24880de5a6329a 57-58,60-62
+examples/05_stiffness.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 17
+examples/08_force_control.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 22
+docs/guide_getting_started_en.md
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 21,39,81,95,150
+tests/test_mujoco_sim.py
+  s_a1b3fedf052a83::t_c87880485202dc 23-24,37-38,57-58,85-86,110-111,135-136,153-154,170-171,188-189
+examples/03_error_handling.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 14-15,56,74
+examples/13_tool_frame.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 27
+examples/dual_arm.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 9
+examples/02_multi_waypoint.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 13
+configs/a1.yaml
+  s_a1b3fedf052a83::t_27b4cddbc9b2cf 2
+onero_sdk/mujoco_backend.py
+  s_a1b3fedf052a83::t_98d8152421418a 84-85,88-90
+  s_a1b3fedf052a83::t_83c2fd1b998792 45
+onero_sdk/end_effector.py
+  s_a1b3fedf052a83::t_3ab75b2fe5c1ea 10,30
+configs/a1_dual.yaml
+  s_a1b3fedf052a83::t_7c20c0d6b37727 3,7
+tests/test_gear_ratio_payload.py
+  s_a1b3fedf052a83::t_c87880485202dc 135,142,149,156,166-167,192-193,246-247
+docs/guide_ros2.md
+  s_a1b3fedf052a83::t_3c5191fc4043cb 237
+  s_a1b3fedf052a83::t_a8582f54a617f3 117
+onero_sdk/model_registry.py
+  s_a1b3fedf052a83::t_b0d7130154e35a 169-176,182-194,196-206
+  s_a1b3fedf052a83::t_98b72822a39650 69-85,89
+examples/11_teach_replay.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 18
+examples/basic_movel.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 10
+tests/test_force_mode_algo.py
+  s_a1b3fedf052a83::t_c87880485202dc 41-42,52-53
+tests/test_state_consistency.py
+  s_a1b3fedf052a83::t_c87880485202dc 38-39
+examples/01_quickstart_sim.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 24,27
+README.md
+  s_a1b3fedf052a83::t_3ca7d24eb3542e 520,605
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 57,81,103,130,152,190,209,243,269,287,304,327,363,408,429,462,562,612
+beavr/beavr_onero/run.py
+  s_a1b3fedf052a83::t_cda9de55b094b6 31
+tests/conftest.py
+  s_a1b3fedf052a83::t_c87880485202dc 16-17,30-31
+examples/10_coordinate_systems.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 23
+examples/basic_movej.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 10
+examples/mujoco_demo.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 58,637
+  s_a1b3fedf052a83::t_68fa56a3f91831 636
+tests/test_cartesian_motion.py
+  s_a1b3fedf052a83::t_c87880485202dc 40-41
+lerobot/lerobot_teleoperator_onero/lerobot_teleoperator_onero/config_onero_teleop.py
+  s_a1b3fedf052a83::t_4938a1a7936734 24
+examples/04_circular_motion.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 14
+examples/14_camera_calibration.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 189
+onero_sdk/diag.py
+  s_a1b3fedf052a83::t_8649353bf3de0d 38
+examples/09_realtime_servo.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 24
+tests/test_precision_measurement.py
+  s_a1b3fedf052a83::t_c87880485202dc 54-55
+examples/servo_control.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 11
+examples/freedrive_teach.py
+  s_a1b3fedf052a83::t_a0640da1ac4ffd 14
+tests/test_adapter_layers.py
+  s_a1b3fedf052a83::t_c87880485202dc 715
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "d2338bbee46591f2ce8c3515e526a3efc7316e2a",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
