@@ -1,0 +1,88 @@
+tests/test_formal_verification.py
+  s_a1b3fedf052a83::t_cec45b05ae0e5e 110-115
+tests/test_precision_measurement.py
+  s_a1b3fedf052a83::t_9a201773acbef3 23
+onero_sdk/motion_executor.py
+  s_a1b3fedf052a83::t_58a9862010c0b6 67-73
+  s_a1b3fedf052a83::t_368da5722aa8aa 87-89,121-123,130-131
+  s_a1b3fedf052a83::t_743ee4888ad010 126-129
+  s_a1b3fedf052a83::t_dcbb2ca103ad4f 57-58,66
+  s_a1b3fedf052a83::t_56563626cb68c1 109
+  s_a1b3fedf052a83::t_d6a768a95cc10e 124-125
+  s_a1b3fedf052a83::t_7f64c525244460 132
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_1cc3a3b40231a8 1779-1782
+  s_a1b3fedf052a83::t_6649f369bb85c5 1770
+  s_a1b3fedf052a83::t_a0686b90208200 151
+  s_a1b3fedf052a83::t_cb9b27d7b395c8 1747-1748,1753-1755,1759,1761,1769
+  s_a1b3fedf052a83::t_77ed0459be8df1 1745-1746,1749-1752,1756-1758,1760,1762-1768,1771-1778,1783-1820
+  s_a1b3fedf052a83::t_0ea3cd7f08ea43 1821
+tests/test_collision.py
+  s_a1b3fedf052a83::t_a67ede081a2ba1 824-825,828-829
+  s_a1b3fedf052a83::t_cc9d4031664878 94-95,104,108-109
+  s_a1b3fedf052a83::t_eb037115694302 642-741,743-746,748-749,751-823,826-827,830,958
+  s_a1b3fedf052a83::t_34bd1d730ab2eb 1-29,31-55,63-93,96-103,105-107,110-449,452-512
+  s_a1b3fedf052a83::t_5ba0f336bf8c1d 56-62
+  s_a1b3fedf052a83::t_9debb484500fac 513-636,638-641,959-1030
+  s_a1b3fedf052a83::t_fedde6c04cc9e0 637
+  s_a1b3fedf052a83::t_918ef4a83ff9f1 742,747,750
+  s_a1b3fedf052a83::t_474aa428597876 835-850
+  s_a1b3fedf052a83::t_810b627581350d 30
+  s_a1b3fedf052a83::t_e2b8317abc45d2 450-451
+  s_a1b3fedf052a83::t_afa340b3fff687 831-834,851-957
+onero_sdk/safety.py
+  s_a1b3fedf052a83::t_c1f9b2b2cd4dff 208-212
+  s_a1b3fedf052a83::t_ddaf33b0a3b28e 250-255
+  s_a1b3fedf052a83::t_cc0f6246265e7d 256
+README.md
+  s_a1b3fedf052a83::t_602ed39732425f 439,441-448,455-477,480-493,496
+  s_a1b3fedf052a83::t_754d79664f284a 478-479
+  s_a1b3fedf052a83::t_51b3fdd958ca5a 449-451
+  s_a1b3fedf052a83::t_091735cc810141 17
+onero_sdk/collision.py
+  s_a1b3fedf052a83::t_66a887ebfa604d 147
+  s_a1b3fedf052a83::t_3ab6bcc4842880 22-23
+  s_a1b3fedf052a83::t_86e892b21836ab 239-242
+  s_a1b3fedf052a83::t_a9021075082e57 14
+  s_a1b3fedf052a83::t_cb9c75ed4fce8f 244-247
+  s_a1b3fedf052a83::t_5f2df1a01e831b 191-195
+  s_a1b3fedf052a83::t_dce21cf1c5ade7 196-197
+  s_a1b3fedf052a83::t_772ea1295e2e30 125-127
+  s_a1b3fedf052a83::t_7dba60ffb27e05 68-85
+  s_a1b3fedf052a83::t_66618d6affe620 63-67,90
+  s_a1b3fedf052a83::t_f9685de533e061 1-12,15-21,24-62,91-124,128-146,148-156,161-170,172-181,186-190,198-203,206,208-210,213-214,217-218,220-233,236-238,243,248-312,328-342
+  s_a1b3fedf052a83::t_7fc7ffa559b953 157-160
+  s_a1b3fedf052a83::t_268db0933bde21 318-319,321-326
+  s_a1b3fedf052a83::t_c8668178a987e2 86-89
+  s_a1b3fedf052a83::t_efc217291f1985 171
+  s_a1b3fedf052a83::t_962965839a4904 343-350
+  s_a1b3fedf052a83::t_a5959db2616757 204-205,207,211-212,215-216,219
+  s_a1b3fedf052a83::t_1994502f658074 313-317,320,327
+  s_a1b3fedf052a83::t_b9cb15ae74e1b7 182-185
+  s_a1b3fedf052a83::t_64b5077d304eb8 13
+  s_a1b3fedf052a83::t_bcccfad762bcce 234-235
+README_en.md
+  s_a1b3fedf052a83::t_f54448ddd8f6e9 17
+  s_a1b3fedf052a83::t_a9107005ca4068 447-449
+  s_a1b3fedf052a83::t_0fc9b9f4e2f0c9 476-477
+  s_a1b3fedf052a83::t_bca208aa526267 437,439-446,453-475,478-491,494
+onero_sdk/__init__.py
+  s_a1b3fedf052a83::t_12c55481881a38 23
+  s_a1b3fedf052a83::t_fb7d690dd23a2f 115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "06a4796d56ccd9e432a899799a2a1a39260e8626",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
