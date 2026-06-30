@@ -1,0 +1,23 @@
+README_en.md
+  s_a1b3fedf052a83::t_716eb27486dfeb 755-758,760,767-798,801-803
+  s_a1b3fedf052a83::t_75d2e7a4037276 804
+README.md
+  s_a1b3fedf052a83::t_efdc59d54c8729 759-762,764,771-802,805-807
+  s_a1b3fedf052a83::t_6a4f00327c313f 808
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "9c5e58c59513b6490582ba3f6c13c635aaad4a66",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
