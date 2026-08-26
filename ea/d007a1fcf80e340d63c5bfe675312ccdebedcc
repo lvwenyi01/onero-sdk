@@ -1,0 +1,21 @@
+onero_sdk/mujoco_backend.py
+  s_d3e2d4df102172::t_f7512c4ffb6d58 78
+  s_d3e2d4df102172::t_fa37c9abb018c1 117-118,125
+  s_d3e2d4df102172::t_a5d41dc179c646 203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "ead007a1fcf80e340d63c5bfe675312ccdebedcc",
+  "prompts": {},
+  "sessions": {
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    }
+  }
+}
