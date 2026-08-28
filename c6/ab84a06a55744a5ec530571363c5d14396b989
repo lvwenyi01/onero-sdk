@@ -1,0 +1,39 @@
+onero_sdk/debugui/server.py
+  s_d3e2d4df102172::t_76063b6dde9a80 177-179,181
+onero_sdk/debugui/__init__.py
+  s_d3e2d4df102172::t_eb84b13a7ef984 11-14
+docs/guide_debugui.md
+  s_d3e2d4df102172::t_dc9bd436e427be 21
+  s_d3e2d4df102172::t_eb84b13a7ef984 18-20,234-236
+README.md
+  s_d3e2d4df102172::t_eb84b13a7ef984 51-53
+  s_d3e2d4df102172::t_dc9bd436e427be 54
+.gitignore
+  s_9a052b8b2eeca5::t_a2e549a5fb1666 33-35
+onero_sdk/debugui/__main__.py
+  s_d3e2d4df102172::t_00b8fc647b82d1 23-41,74-75,78,81-82,85-90,95-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "c6ab84a06a55744a5ec530571363c5d14396b989",
+  "prompts": {},
+  "sessions": {
+    "s_9a052b8b2eeca5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a03d43-11ed-7423-b926-50dd4fb574df",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    },
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    }
+  }
+}
