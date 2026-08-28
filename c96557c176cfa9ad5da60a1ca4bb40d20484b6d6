@@ -1,0 +1,37 @@
+beavr/beavr_onero/robot_wrapper.py
+  s_a1b3fedf052a83::t_09874279417a11 27
+  s_a1b3fedf052a83::t_eb7fed93ead8e9 103
+onero_sdk/protocols.py
+  s_a1b3fedf052a83::t_adfa1cbf6eecd7 1-38
+README_en.md
+  s_a1b3fedf052a83::t_532586a87ddc97 295-306
+README.md
+  s_a1b3fedf052a83::t_68a8338c01ef8f 295-308
+tests/test_arm_contract.py
+  s_a1b3fedf052a83::t_4937dcdb7d93fe 67-69
+  s_a1b3fedf052a83::t_b06c5e26968b08 1-66,70-109
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_55f11e60ff92a5 1499,1501-1505,1507-1509
+onero_sdk/__init__.py
+  s_a1b3fedf052a83::t_86e86a7d9d14c4 123
+  s_a1b3fedf052a83::t_4f8089f804dd9e 38
+lerobot/lerobot_robot_onero/lerobot_robot_onero/onero.py
+  s_a1b3fedf052a83::t_600b0d7b449afd 43
+  s_a1b3fedf052a83::t_c88643f230066e 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "c96557c176cfa9ad5da60a1ca4bb40d20484b6d6",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

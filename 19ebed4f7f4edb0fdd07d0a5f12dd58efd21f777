@@ -1,0 +1,31 @@
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_3e5834c73d9a6a 2104-2109
+  s_a1b3fedf052a83::t_54981399c28e7b 492-493,495-510
+  s_a1b3fedf052a83::t_222e3d797c593d 2110-2112
+onero_sdk/safety.py
+  s_a1b3fedf052a83::t_43741b9a1b47c5 302-303
+  s_a1b3fedf052a83::t_a2776caceead06 28-48
+  s_a1b3fedf052a83::t_251d0497f27117 74-75
+  s_a1b3fedf052a83::t_0ab95a874416b0 175-176,181,183-193,209-243
+  s_a1b3fedf052a83::t_7e6dcf05c6f86e 153-165,177-180,182,194-208
+tests/test_safe_backend_algo.py
+  s_a1b3fedf052a83::t_5ed420e6685c81 221-498
+onero_sdk/safe_backend.py
+  s_a1b3fedf052a83::t_ef3f9c8994d7ae 74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "19ebed4f7f4edb0fdd07d0a5f12dd58efd21f777",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

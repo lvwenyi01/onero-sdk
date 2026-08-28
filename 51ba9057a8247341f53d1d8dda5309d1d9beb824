@@ -1,0 +1,28 @@
+examples/ros2/03_ros2_trajectory.py
+  s_a1b3fedf052a83::t_80f019972057ba 32
+  s_a1b3fedf052a83::t_59c3bac7eb24a9 48
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_0ba6bfecb7005b 740-741
+docs/guide_ros2.md
+  s_a1b3fedf052a83::t_5e28d6433cece2 125-126
+  s_a1b3fedf052a83::t_7ab22345a47c72 173,175,200-204,221-223
+  s_a1b3fedf052a83::t_a07a2c14e97fa2 229,234-242,247-259,273-275,278-280
+examples/ros2/02_ros2_movej_service.py
+  s_a1b3fedf052a83::t_a0be3fcc226818 2,4-5,19-27,33-53,57,59,62-71,73,75-76,90,96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "51ba9057a8247341f53d1d8dda5309d1d9beb824",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

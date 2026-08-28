@@ -1,0 +1,47 @@
+lerobot/lerobot_teleoperator_onero/pyproject.toml
+  s_a1b3fedf052a83::t_85e27b6da8d053 1-18
+lerobot/lerobot_robot_onero/lerobot_robot_onero/config_onero.py
+  s_a1b3fedf052a83::t_32d9f3f1d19d1a 1-23
+lerobot/lerobot_teleoperator_onero/lerobot_teleoperator_onero/config_onero_teleop.py
+  s_a1b3fedf052a83::t_424ef6e2dbd94a 1-25
+lerobot/lerobot_robot_onero/lerobot_robot_onero/onero.py
+  s_a1b3fedf052a83::t_38ef4d9d7a9ced 1-152
+beavr/README.md
+  s_a1b3fedf052a83::t_96d25ebbbde4fa 1-139
+beavr/beavr_onero/robot_wrapper.py
+  s_a1b3fedf052a83::t_5bd8e921cb85b2 1-337
+beavr/pyproject.toml
+  s_a1b3fedf052a83::t_c4d17ec98a420b 1-25
+beavr/beavr_onero/operator.py
+  s_a1b3fedf052a83::t_330884edad52a9 1-282
+lerobot/lerobot_teleoperator_onero/lerobot_teleoperator_onero/onero_teleop.py
+  s_a1b3fedf052a83::t_ebc1157b404b17 1-96
+beavr/beavr_onero/run.py
+  s_a1b3fedf052a83::t_754d683a9ed6a5 23
+  s_a1b3fedf052a83::t_979f704299e844 1-22,24-96
+lerobot/lerobot_robot_onero/pyproject.toml
+  s_a1b3fedf052a83::t_5ad78058eb42a3 1-21
+lerobot/lerobot_teleoperator_onero/lerobot_teleoperator_onero/__init__.py
+  s_a1b3fedf052a83::t_66ad7ecefb9533 1-4
+lerobot/lerobot_robot_onero/lerobot_robot_onero/__init__.py
+  s_a1b3fedf052a83::t_d2ea7837791365 1-4
+beavr/beavr_onero/__init__.py
+  s_a1b3fedf052a83::t_cb31107c785892 1-22,24-32
+  s_a1b3fedf052a83::t_6e7ea277c01d27 23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "ba2d8713c57705cb09932a5ae4e1875c873411f2",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
