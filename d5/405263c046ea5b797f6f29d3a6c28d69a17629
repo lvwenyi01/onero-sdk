@@ -1,0 +1,66 @@
+docs/guide_debugui.md
+  s_d3e2d4df102172::t_eb84b13a7ef984 18-20,234-236
+  s_d3e2d4df102172::t_dc9bd436e427be 21
+onero_sdk/mujoco_backend.py
+  s_d3e2d4df102172::t_fa37c9abb018c1 117-118,125
+  s_d3e2d4df102172::t_a5d41dc179c646 203
+  s_d3e2d4df102172::t_f7512c4ffb6d58 78
+  s_d3e2d4df102172::t_5cae4fc9b2d81a 189-191
+onero_sdk/debugui/__main__.py
+  s_d3e2d4df102172::t_00b8fc647b82d1 23-41,74-75,78,81-82,85-90,95-101
+README.md
+  s_d3e2d4df102172::t_eb84b13a7ef984 51-53
+  s_d3e2d4df102172::t_dc9bd436e427be 54
+onero_sdk/debugui/__init__.py
+  s_d3e2d4df102172::t_eb84b13a7ef984 11-14
+onero_sdk/debugui/server.py
+  s_d3e2d4df102172::t_76063b6dde9a80 177-179,181
+onero_sdk/backend.py
+  s_d3e2d4df102172::t_2c2f191d793a16 79-85
+onero_sdk/can_backend.py
+  s_d3e2d4df102172::t_b239341dfc16af 11,73-79,100-147,207-210,214-218,226-233,241-242,245-249,274,276,282
+onero_sdk/dual_arm.py
+  s_d3e2d4df102172::t_47fd2233a7a724 60-61,82-85,120,131,183,193
+onero_sdk/model_registry.py
+  s_d3e2d4df102172::t_ec2ae569f7ba3e 28-30,44-49,113-114,118-119,123-128,171-173,185-190,236-237
+onero_sdk/mounting.py
+  s_d3e2d4df102172::t_355695049c88a6 39-42,88-98,181
+onero_sdk/protocol.py
+  s_d3e2d4df102172::t_b6d68ff249b966 5,56-57,80-97,108-122,144-147,166-167
+onero_sdk/safe_backend.py
+  s_d3e2d4df102172::t_da5942ee17f189 114-120
+onero_sdk/urdf/A1/a1_l.urdf
+  s_d3e2d4df102172::t_d8ec150c0ea0db 26,29,31-36,66,69,71-76,106,124,130-131,164-165,182,185,187-188,190-192,222-223,240,246-247,298,301,303-308,356,359,361-364,366,396-397,414,417,419-424,454-455,468
+onero_sdk/urdf/A1/a1_r.urdf
+  s_d3e2d4df102172::t_15bb36e192a8a3 8-10,30-32,51,59-61,80,88-90,109,117-119,138,146-148,167,175-177,196,204-206,225,231
+onero_sdk/zero_offset_backend.py
+  s_d3e2d4df102172::t_1d61af1d639ee2 102-106
+tests/test_gear_ratio_payload.py
+  s_d3e2d4df102172::t_a9672b6f3d9456 241,244-245,274-275,281-316
+tests/test_protocol.py
+  s_d3e2d4df102172::t_4a49c1cbae9bdd 8-9,19,21-22,27-28,57-113,189-275
+configs/a1.yaml
+  s_d3e2d4df102172::t_309799694db5ce 5-8,14
+configs/a1_dual.yaml
+  s_d3e2d4df102172::t_5b6500b5524477 9,15
+onero_sdk/arm.py
+  s_d3e2d4df102172::t_44bf5d06cebc8a 69-70,97-101,108-110,299-330,402-410,415,417-421,428,1531,1545-1547,1585-1588,1651,1664,1794,1845,1864,1875-1876,1879-1880,2557-2583,2585,2588-2594,2711
+tests/test_mounting.py
+  s_d3e2d4df102172::t_782873022ff16d 70-76,213-216
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "d5405263c046ea5b797f6f29d3a6c28d69a17629",
+  "prompts": {},
+  "sessions": {
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    }
+  }
+}
