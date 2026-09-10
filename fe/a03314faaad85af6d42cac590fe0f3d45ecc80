@@ -1,0 +1,51 @@
+onero_sdk/debugui/static/app.js
+  s_f8c7aa18955f27::t_8ddb47679dfa7e 33-53,204,209,293,296-298,302-305,323-325
+  s_f8c7aa18955f27::t_605e5357252d70 308,405,407-410,424,521,542
+  s_f8c7aa18955f27::t_08dea682eae814 8-9,290
+  s_f8c7aa18955f27::t_b2c7c7d7703825 17,301,310-312,314,329-347,379,381,384-385,389,391-393,403-404,411-412
+  s_f8c7aa18955f27::t_a889a223a8f031 60,62,777-778,788-800
+tests/test_debugui.py
+  s_f8c7aa18955f27::t_01911cf021c45c 135
+  s_f8c7aa18955f27::t_971510d1a0a81b 134
+  s_f8c7aa18955f27::t_ad74343f480248 5-6,21-22,27,44-46,55-56,146-172
+  s_f8c7aa18955f27::t_538d7cd4e52605 136
+  s_f8c7aa18955f27::t_61b7dff0d84029 132-133,139
+  s_f3b72d9080c49b::t_c6d9adefc5a6ca 173-175
+onero_sdk/ik_solver.py
+  s_f8c7aa18955f27::t_a3a97651a44469 352-376
+tests/test_ik_solver_algo.py
+  s_f8c7aa18955f27::t_6625da96f9b053 26-27,29,79-105
+  s_f8c7aa18955f27::t_d20f00133d68ec 106-107
+onero_sdk/debugui/server.py
+  s_f8c7aa18955f27::t_bc75536db9561c 144,163-170,281
+onero_sdk/debugui/__main__.py
+  s_f8c7aa18955f27::t_c403b1bad29539 56-59,61-65,72,78-82
+docs/guide_debugui.md
+  s_f8c7aa18955f27::t_a6faad92edead2 270
+  s_f8c7aa18955f27::t_7053c30bf6155a 143,155
+  s_f8c7aa18955f27::t_dd6e22c1a0cfbf 146,158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fea03314faaad85af6d42cac590fe0f3d45ecc80",
+  "prompts": {},
+  "sessions": {
+    "s_f3b72d9080c49b": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a089e2-2296-71fa-8124-442924aff790",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    },
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
