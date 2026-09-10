@@ -1,0 +1,56 @@
+pyproject.toml
+  s_f8c7aa18955f27::t_49b79a0aeecc9e 40
+onero_sdk/debugui/server.py
+  s_f8c7aa18955f27::t_0a95ac6fbc0253 196-205
+  s_f8c7aa18955f27::t_ee2e4024fc51cd 175-176,181-185,187,342-350,689-692
+  s_f8c7aa18955f27::t_11f0d4c5bbf7f8 32
+  s_f8c7aa18955f27::t_c5e05f274ce698 693
+onero_sdk/dual_mujoco_backend.py
+  s_f8c7aa18955f27::t_85dfd4402a1b86 141-143
+  s_f8c7aa18955f27::t_066847296bb179 139-140
+  s_f8c7aa18955f27::t_b0264b10cadf78 144-145,149
+tests/test_mesh_assets.py
+  s_f8c7aa18955f27::t_228f99c5771541 1-9,18-42
+  s_f8c7aa18955f27::t_e37bf8e94f71a9 10-17,43-47
+onero_sdk/debugui/static/app.js
+  s_f8c7aa18955f27::t_19cdbcff4b7557 299-300,326-346,354-355,357,413-415,417-418,420-422,434,436-440,442-447,449-454
+  s_f8c7aa18955f27::t_4422a1d7f2cfdf 773
+  s_f8c7aa18955f27::t_ca69edaa178feb 302-305,347-348,356,358,383,390-395,408-412,416,419,427,431
+  s_f8c7aa18955f27::t_9ff188fa8dde31 492,500,530-532,535-544,548-550,552-566,618,659,661-663,665-666,668-669,672
+  s_f8c7aa18955f27::t_827ff1763b24da 551,613-617,660,664,667,670-671,673
+  s_f8c7aa18955f27::t_4ed68b1775bc46 567-568
+tests/test_dual_mujoco_alignment.py
+  s_f8c7aa18955f27::t_f0263d5fefd251 1-57
+tests/test_debugui.py
+  s_f8c7aa18955f27::t_cdf34d4ac74271 39-43,47-50,70,104-106,131-140
+  s_f8c7aa18955f27::t_498d25599b001b 107-130
+  s_f8c7aa18955f27::t_2b1e10b727e081 1-2,4,6-9,11-38,44-46,51-69,141-142
+  s_f8c7aa18955f27::t_23dd2b239e6d50 3,5,10,71-103
+tests/test_cartesian_motion.py
+  s_f8c7aa18955f27::t_0ee66c6f534f89 125-138
+docs/guide_debugui.md
+  s_f8c7aa18955f27::t_92f5357b91519e 155
+  s_f8c7aa18955f27::t_b3e9d7e02b93e8 136,142-147,150-154,156-161,199
+onero_sdk/urdf/A1/a1_l.urdf
+  s_f8c7aa18955f27::t_fe3bbe0c81e86a 44,58,84,98,142,156,200,214,258,272,316,330,374,388,432,446
+onero_sdk/urdf/A1/a1_r.urdf
+  s_f8c7aa18955f27::t_98a355bff044e2 15,24,37,46,66,75,95,104,124,133,153,162,182,191,211,220
+ros2/onero_ros2/description/meshes/a1_r
+  s_f8c7aa18955f27::t_4ec1e256189973 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "b788f83b18b5cc60299dee965b55fef8dd3c4c71",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
