@@ -1,0 +1,27 @@
+onero_sdk/arm.py
+  s_d3e2d4df102172::t_6f326bdacaaf62 10
+onero_sdk/ruckig_planner.py
+  s_d3e2d4df102172::t_15ee825050432b 69-74,130-132,155-158,171-173,189-190,192-199
+  s_d3e2d4df102172::t_5909ae51f78171 55-56,58-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "22e6659b3b9860060028886adb53329c02e85c59",
+  "prompts": {},
+  "humans": {
+    "h_fd45e9d8af4588": {
+      "author": "Tanzy01 <2193923677@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    }
+  }
+}
