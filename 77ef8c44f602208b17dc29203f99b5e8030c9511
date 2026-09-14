@@ -1,0 +1,21 @@
+修改与测试报告.md
+  s_d3e2d4df102172::t_f13cbd58467a66 260,264
+  s_d3e2d4df102172::t_2d70731b368d24 165,319
+  s_d3e2d4df102172::t_9c31dc50928c2d 195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "77ef8c44f602208b17dc29203f99b5e8030c9511",
+  "prompts": {},
+  "sessions": {
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tanzy01 <2193923677@qq.com>"
+    }
+  }
+}

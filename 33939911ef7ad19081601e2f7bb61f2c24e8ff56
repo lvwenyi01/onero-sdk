@@ -1,0 +1,38 @@
+beavr/README.md
+  s_d63a1e2c52c6a0::t_bd82de22336ff3 46,52-55,79-85
+  s_d63a1e2c52c6a0::t_f73c11f9ea940f 86
+beavr/beavr_onero/robot_wrapper.py
+  s_d63a1e2c52c6a0::t_821c3ce8cd8e71 21,25,31-33,61-63,85-87,89,95,134-136,147-153,166-168,232-234,236,239-242,261-263,271,278-285,287-288,291,295-297,301,314-316,325-329,332-347,373-402,411-419,428-471
+  s_d63a1e2c52c6a0::t_c87a83784c0656 427
+  s_d63a1e2c52c6a0::t_bd75f369eba4b5 94
+  s_d63a1e2c52c6a0::t_c6ba60c541aef2 420
+tests/test_adapter_layers.py
+  s_d63a1e2c52c6a0::t_7c83f7190ac62b 11
+  s_d63a1e2c52c6a0::t_323ab48df7cb50 493-613
+  s_d63a1e2c52c6a0::t_acffa440dc635d 614-615
+beavr/beavr_onero/operator.py
+  s_d63a1e2c52c6a0::t_bfb173135432e0 15-16,30-31,38,42-43,51-53,62,91-94
+  s_d63a1e2c52c6a0::t_24ed6af874c920 296
+  s_d63a1e2c52c6a0::t_1806455007cf40 271-273,275-280,283-284,287-295,297-318
+  s_d63a1e2c52c6a0::t_247942d197371a 203,208-209,213-214,217,219-220,247-251
+  s_d63a1e2c52c6a0::t_5154c7713e05cc 104,162-165,170-171,176-177,185
+  s_d63a1e2c52c6a0::t_cac2c6ff66f8aa 319
+beavr/beavr_onero/run.py
+  s_d63a1e2c52c6a0::t_4da373912a3aee 23,40-41,50-61,71-72,78,84-86,88-91,94,98,109,112-113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "33939911ef7ad19081601e2f7bb61f2c24e8ff56",
+  "prompts": {},
+  "sessions": {
+    "s_d63a1e2c52c6a0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f4092-0edf-70d3-87ae-84794f192a16",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

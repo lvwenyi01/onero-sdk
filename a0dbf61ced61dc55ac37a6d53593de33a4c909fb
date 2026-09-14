@@ -1,0 +1,27 @@
+onero_sdk/gain_policy.py
+  s_a1b3fedf052a83::t_1532eae26618b5 46-55
+  s_a1b3fedf052a83::t_397457716e5ed5 125-138
+onero_sdk/urdf/A1/a1_r.urdf
+  s_a1b3fedf052a83::t_6ee1f0fde772cd 204-207,209-210
+tests/test_gear_ratio_payload.py
+  s_a1b3fedf052a83::t_25d8f25518cb73 91-96,100,103
+  s_a1b3fedf052a83::t_8ff558c39e45c5 128-225
+onero_sdk/urdf/A1/a1_l.urdf
+  s_a1b3fedf052a83::t_a2649fda3dd4a4 413-417,422,424-429
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a0dbf61ced61dc55ac37a6d53593de33a4c909fb",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

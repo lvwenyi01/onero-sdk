@@ -1,0 +1,44 @@
+onero_sdk/motion_strategy.py
+  s_a1b3fedf052a83::t_5d9f963b5f2b3f 30
+  s_a1b3fedf052a83::t_3c66597c76545a 16
+  s_a1b3fedf052a83::t_def0b54fac07d6 185-196,208-214,217-224,227-232,236,240,245
+  s_a1b3fedf052a83::t_1cb7df813dd581 9,17-29,31-33,38-41
+  s_a1b3fedf052a83::t_117a121318f082 34-37,42
+  s_a1b3fedf052a83::t_68bd603a4d27c3 197-207,215-216,225-226
+onero_sdk/ik_solver.py
+  s_a1b3fedf052a83::t_0a0662f22a024d 82,85-89,126-132
+  s_a1b3fedf052a83::t_5502ad8004f2cb 155-157,170-171,204-210
+docs/guide_singularity.md
+  s_a1b3fedf052a83::t_66a1ec0a35b211 1-116
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_6d1338bd726070 188-192
+  s_a1b3fedf052a83::t_f463889c1d0f87 905-906
+  s_a1b3fedf052a83::t_95ae7e22a52a43 2188-2209
+  s_a1b3fedf052a83::t_3c27e3a970238b 2210-2236,2238,2259
+  s_a1b3fedf052a83::t_71d8bd62782cec 2237,2239-2258
+  s_a1b3fedf052a83::t_25a60aa993bc05 30
+  s_a1b3fedf052a83::t_9daa9e0411fd80 193
+onero_sdk/dynamics.py
+  s_a1b3fedf052a83::t_72774d37c032b6 11
+  s_a1b3fedf052a83::t_f01846dd1f832a 250-265
+  s_a1b3fedf052a83::t_6f71ea6a5432e1 340-341,356-357,361,364,372-373
+  s_a1b3fedf052a83::t_7d2f8f12340434 266-316
+tests/test_singularity.py
+  s_a1b3fedf052a83::t_afe60001ff49eb 1-151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "56fdc58c2f38870c40ce3f48fc24bcad7d785ede",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

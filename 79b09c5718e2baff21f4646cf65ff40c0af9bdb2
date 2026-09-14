@@ -1,0 +1,23 @@
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_a1b67f4fdab683 662-663,672-675,689-692,698
+README_zh.md
+  s_a1b3fedf052a83::t_94c0e3e4ade844 260
+README.md
+  s_a1b3fedf052a83::t_213759c66f2d9b 260
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "79b09c5718e2baff21f4646cf65ff40c0af9bdb2",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

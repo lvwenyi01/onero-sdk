@@ -1,0 +1,43 @@
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_81e81acdbad806 62-63,82-89
+  s_a1b3fedf052a83::t_f8cf9abde26d2b 94-95
+  s_a1b3fedf052a83::t_7af2a3be944c52 299-300,304-321,328-331
+benchmarks/bench_can.py
+  s_a1b3fedf052a83::t_a1ffeec90d6bf5 1-854
+docs/bench_can_report.md
+  s_a1b3fedf052a83::t_627ca1a82af987 1-6,11-19,26-29,33-37,65-69,83-84
+  s_a1b3fedf052a83::t_959919c283a5c1 30-32,38-64,70-81
+  s_a1b3fedf052a83::t_e1a0021f2034b0 25
+  s_a1b3fedf052a83::t_b7145b9315146b 82
+  s_a1b3fedf052a83::t_2471fd9faef160 85-140
+  s_a1b3fedf052a83::t_17077d5e1ac6b0 141-144,146-152
+  s_a1b3fedf052a83::t_54b72a235df86c 20-24
+  s_a1b3fedf052a83::t_878d0de89cb86e 145,153-168
+  s_a1b3fedf052a83::t_7d116e8b2d03d4 7-10
+onero_sdk/realtime.py
+  s_a1b3fedf052a83::t_f103f4b0ebf46a 1-154
+onero_sdk/__init__.py
+  s_a1b3fedf052a83::t_9cf9677feb27bf 127
+  s_a1b3fedf052a83::t_1f9c10ff0d2151 40
+onero_sdk/can_bus.py
+  s_a1b3fedf052a83::t_0fc075a94592d4 27-33,102,123,145-148,150-151,154-163,165,190
+  s_a1b3fedf052a83::t_a21c8dbc85aedf 90-94,103-116
+  s_a1b3fedf052a83::t_2d9793f1a151ab 12,34-40
+  s_a1b3fedf052a83::t_b44e5c2fed250d 171-177
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a0a47668e69da57dd7e87cfbf7f5ecdd03a36ff0",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

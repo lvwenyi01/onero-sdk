@@ -1,0 +1,58 @@
+ros2/onero_moveit_config/config/kinematics.yaml
+  s_a1b3fedf052a83::t_679a871670a11b 1-4
+ros2/onero_ros2/onero_ros2/__init__.py
+  s_a1b3fedf052a83::t_2671a56a221d55 1
+ros2/onero_ros2/package.xml
+  s_a1b3fedf052a83::t_864d40230dcca7 1-27
+ros2/onero_ros2/setup.cfg
+  s_a1b3fedf052a83::t_2d1aaef66ec957 1-5
+ros2/onero_ros2/description/a1_ros2_control.urdf.xacro
+  s_a1b3fedf052a83::t_b8afcb3932234a 12-13,19-21,24-25,28,34-36,39-40,43,49-51,54,58,64-66,69,73,79-81,84,88,94-96,99,103,109-111,114,118,124-126,129,133,137,140,148,151,156,164,167,172,180,183,188
+  s_a1b3fedf052a83::t_f9cb87d5ee171f 1-11,14-18,22-23,26-27,29-33,37-38,41-42,44-48,52-53,55-57,59-63,67-68,70-72,74-78,82-83,85-87,89-93,97-98,100-102,104-108,112-113,115-117,119-123,127-128,130-132,134-136,138-139,141-147,149-150,152-155,157-163,165-166,168-171,173-179,181-182,184-187,189-270
+ros2/onero_moveit_config/package.xml
+  s_a1b3fedf052a83::t_bb0c4cd4e02152 1-26
+ros2/onero_moveit_config/config/moveit_controllers.yaml
+  s_a1b3fedf052a83::t_c3afc7a919b12d 1-17
+ros2/onero_ros2/config/controllers.yaml
+  s_a1b3fedf052a83::t_d927ab658e282d 1-69
+ros2/onero_ros2/setup.py
+  s_a1b3fedf052a83::t_ec73c2210e05bc 1-27
+ros2/onero_moveit_config/CMakeLists.txt
+  s_a1b3fedf052a83::t_29f536f7bcd01d 1-10
+ros2/onero_moveit_config/README.md
+  s_a1b3fedf052a83::t_1bd4ab0987015b 1-88
+ros2/onero_ros2/onero_ros2/hardware_interface.py
+  s_a1b3fedf052a83::t_5c2dd3c3eefd6c 1-313
+ros2/onero_moveit_config/config/ompl_planning.yaml
+  s_a1b3fedf052a83::t_ec362ecf5e3243 1-37
+ros2/onero_moveit_config/config/joint_limits.yaml
+  s_a1b3fedf052a83::t_be9c16f93974fe 1-38
+ros2/onero_ros2/launch/bringup.launch.py
+  s_a1b3fedf052a83::t_f36162afb0510f 1-92
+ros2/onero_moveit_config/launch/move_group.launch.py
+  s_a1b3fedf052a83::t_752cb4ab65c149 1-96
+ros2/onero_ros2/README.md
+  s_a1b3fedf052a83::t_2e6d1194781c25 1-97
+ros2/onero_ros2/launch/fake.launch.py
+  s_a1b3fedf052a83::t_67ca8e5d5add2f 1-74
+ros2/onero_moveit_config/config/a1.srdf
+  s_a1b3fedf052a83::t_cc7713ca846f00 1-51
+ros2/onero_ros2/description/meshes/a1_r
+  s_a1b3fedf052a83::t_b71179ccf37a07 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "25d52eeeaea4490f37280d46f8d928e43a49e97a",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}

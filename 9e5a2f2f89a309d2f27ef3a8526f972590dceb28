@@ -1,0 +1,32 @@
+onero_sdk/arm.py
+  s_a1b3fedf052a83::t_d117cf641925bc 377-390,392-400,402-408,414-430,432,450-465,469-471,478-500,512-518,521-543,548,577,603,606-611,613-614
+  s_a1b3fedf052a83::t_8bafde538d4588 391,401,409-413,431,433-449,466-468,472-477,501-511,519-520,544-547,549-576,578-602,604-605,612
+  s_a1b3fedf052a83::t_58d9ffbcb0791f 10,38-41
+  s_a1b3fedf052a83::t_b46bfb8f578f59 42
+  s_a1b3fedf052a83::t_e9975ee50c3fa7 111,114,122-141
+  s_a1b3fedf052a83::t_ad948ab38089c9 142
+tests/test_zero_offset.py
+  s_a1b3fedf052a83::t_8db4c84876cf06 1-372,397-399
+  s_a1b3fedf052a83::t_8f79f6f029afa8 373-396
+onero_sdk/zero_offset_backend.py
+  s_a1b3fedf052a83::t_60eac2db0c73fc 1-103
+onero_sdk/zero_calibration.py
+  s_a1b3fedf052a83::t_45debd14edf306 1-77,89-160
+  s_a1b3fedf052a83::t_5b252e2dde063a 78-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9e5a2f2f89a309d2f27ef3a8526f972590dceb28",
+  "prompts": {},
+  "sessions": {
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
