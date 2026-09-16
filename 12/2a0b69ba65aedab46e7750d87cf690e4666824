@@ -1,0 +1,21 @@
+tests/test_dual_mujoco_alignment.py
+  s_f8c7aa18955f27::t_f7fe4db761696a 17-28,68-71,80-99
+examples/generate_readme_gifs.py
+  s_f8c7aa18955f27::t_976a4c8c76c2ec 1093-1095,1099-1111,1117-1118,1137-1142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "122a0b69ba65aedab46e7750d87cf690e4666824",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
