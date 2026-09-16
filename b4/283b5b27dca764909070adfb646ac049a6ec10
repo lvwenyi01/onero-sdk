@@ -1,0 +1,52 @@
+onero_sdk/arm.py
+  s_f8c7aa18955f27::t_77ddee91dc59dc 1278-1280,1296-1302,1315,1317-1323,1325
+  s_f8c7aa18955f27::t_0e5b0a55f82860 1367
+  s_f8c7aa18955f27::t_a03159b8044f04 2489-2534
+  s_f8c7aa18955f27::t_44c73f0cc150db 1242-1244,1345-1347,2488,2535-2554
+  s_f8c7aa18955f27::t_2e70e15c499188 1209,1217,1220-1222
+  s_f8c7aa18955f27::t_01e2dfc531c694 1214-1216,1303-1309
+  s_f8c7aa18955f27::t_33340556ed1972 241-248
+  s_f8c7aa18955f27::t_6860d8588caccc 2471-2472,2475-2487
+  s_f8c7aa18955f27::t_8a995ef854a160 1316,1324
+  s_f8c7aa18955f27::t_fd52357be17af1 1211-1213
+  s_f8c7aa18955f27::t_4cb60c139fb7af 1210
+  s_f8c7aa18955f27::t_b6682f71435009 2555
+onero_sdk/motion_executor.py
+  s_f8c7aa18955f27::t_2679209920e56e 60-61,72,109-115
+  s_f8c7aa18955f27::t_6fe51008aa117f 58-59,70-71,92-95,105-108,116-117,122-125,129
+onero_sdk/motion_strategy.py
+  s_f8c7aa18955f27::t_96a5595fa2ef54 229-230,306-307
+  s_f8c7aa18955f27::t_70b58c4db2a1c6 226-228,240-258,296-297,299,301-302,304,308-313,316-317
+  s_f8c7aa18955f27::t_9cb74e292afca3 314-315
+  s_f8c7aa18955f27::t_b73aaad93c8e02 205-209,212-215,218-219
+tests/test_velocity_safety.py
+  s_f8c7aa18955f27::t_a89aa38e1e2bc5 150-170
+  s_f8c7aa18955f27::t_28245a6f5bfef9 112-128
+  s_f8c7aa18955f27::t_b21835c3294bce 20,43-44,184-199
+  s_f8c7aa18955f27::t_ca6b33e39d8de3 1-16,21-32,37,42,45-76
+  s_f8c7aa18955f27::t_55edb10a648cde 18-19,33-36,129-149
+  s_f8c7aa18955f27::t_c9f3d387707334 77-92
+  s_f8c7aa18955f27::t_06408c96c8a764 17,38-41,93-111
+  s_f8c7aa18955f27::t_51779649fe94bc 171-183
+onero_sdk/safe_backend.py
+  s_f8c7aa18955f27::t_1e7ca4e1be0074 59
+  s_f8c7aa18955f27::t_adc54c0e58669c 55-58,62,65
+onero_sdk/safety.py
+  s_f8c7aa18955f27::t_fc72dcb6457b57 250-257,260-276
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b4283b5b27dca764909070adfb646ac049a6ec10",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
