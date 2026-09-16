@@ -1,0 +1,61 @@
+configs/a1_dual.yaml
+  s_f8c7aa18955f27::t_3b94c823721514 8,14
+tests/test_mounting.py
+  s_f8c7aa18955f27::t_4fcc4df76468ee 49-65
+  s_f8c7aa18955f27::t_3783947f363ce8 67-87
+  s_f8c7aa18955f27::t_f6b6321e05c90d 66
+README_en.md
+  s_f8c7aa18955f27::t_70d067a144d1e7 151,157-158,204,206,815,818
+  s_f8c7aa18955f27::t_41822c1e7cb149 162-163
+onero_sdk/dual_mujoco_backend.py
+  s_f8c7aa18955f27::t_b4630c25cf9e41 197-216
+  s_f8c7aa18955f27::t_ac519f008c302c 96-108
+  s_f8c7aa18955f27::t_012ea32d60dd94 253-329
+  s_f8c7aa18955f27::t_4ec61ee5cdaf39 13,22-66
+docs/guide_getting_started.md
+  s_f8c7aa18955f27::t_e557a609465290 68,74-76,94
+docs/guide_getting_started_en.md
+  s_f8c7aa18955f27::t_ed85c3af70c4e6 76,81-82,85-89,97
+docs/guide_coordinate_frames.md
+  s_f8c7aa18955f27::t_eb962559b6869f 16,18,20-21,23,26-27,30-32,34-40,42-44,47-49,52,54-63,66,68-71,73-82,84,86-91,94,96,100-103,105
+  s_f8c7aa18955f27::t_df9ae508b4875b 5
+onero_sdk/mounting.py
+  s_f8c7aa18955f27::t_4a540ef1e240e5 34-47,103-106,129,132
+README.md
+  s_f8c7aa18955f27::t_dedf7b71d5ec98 228,230
+  s_f8c7aa18955f27::t_b7999132064023 185-186
+  s_f8c7aa18955f27::t_7deff2a3a50524 174,180-181,842,845
+onero_sdk/dual_arm.py
+  s_f8c7aa18955f27::t_4f07983fdec62d 144,149,180,190
+  s_f8c7aa18955f27::t_010a900a614c1c 58-59,80-81
+onero_sdk/config.py
+  s_f8c7aa18955f27::t_31e67a2de1af6b 56,61
+examples/generate_readme_gifs.py
+  s_f8c7aa18955f27::t_01c2b9413e851e 1070,1079-1085,1116
+  s_f8c7aa18955f27::t_d85d5ed44318bf 1067,1069,1074-1078,1086-1087,1113-1115,1119,1136,1154-1155
+  s_f8c7aa18955f27::t_808082c5a745b2 1092,1096-1098,1143-1152
+  s_f8c7aa18955f27::t_f687acd896d077 1122-1134
+  s_f8c7aa18955f27::t_b3a1c98bde45d1 1112
+  s_f8c7aa18955f27::t_7a88d72a028396 1135
+  s_f8c7aa18955f27::t_976a4c8c76c2ec 1093-1095,1099-1111,1117-1118,1137-1142
+tests/test_dual_mujoco_alignment.py
+  s_f8c7aa18955f27::t_3b234f80058e72 8,58-67,72-79
+  s_f8c7aa18955f27::t_2420e930315fa3 100-101
+  s_f8c7aa18955f27::t_f7fe4db761696a 17-28,68-71,80-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "725d6f64425337016686884993c6e296ca551e3a",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}

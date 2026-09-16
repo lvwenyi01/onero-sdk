@@ -1,0 +1,90 @@
+tests/test_robustness_invalid_inputs.py
+  s_f8c7aa18955f27::t_fedde5a7479fe2 405
+README_en.md
+  s_f8c7aa18955f27::t_a9de974220c864 907-909
+  s_f8c7aa18955f27::t_2e6323790bbbae 933
+README.md
+  s_f8c7aa18955f27::t_714491b50a0257 932-933
+  s_f8c7aa18955f27::t_c3d8c78310b07c 957
+tests/test_arm_contract.py
+  s_f8c7aa18955f27::t_e22e075ea1b78f 33-47
+  s_f8c7aa18955f27::t_7ca959948a8295 16-32,48
+onero_sdk/mujoco_backend.py
+  s_f8c7aa18955f27::t_6580846266ff2b 189
+onero_sdk/can_backend.py
+  s_f8c7aa18955f27::t_f3a76bad43b122 283
+tests/test_formal_verification.py
+  s_f8c7aa18955f27::t_dc44aa98b19169 343
+onero_sdk/safe_backend.py
+  s_f8c7aa18955f27::t_0c0262c251f6e3 113
+  s_f8c7aa18955f27::t_0e4b9f7b1e47d5 112
+  s_f8c7aa18955f27::t_1e7ca4e1be0074 59
+  s_f8c7aa18955f27::t_adc54c0e58669c 55-58,62,65
+onero_sdk/arm.py
+  s_f8c7aa18955f27::t_1a0f2d83061119 251-254,261-263,265,415-416,418-421
+  s_f8c7aa18955f27::t_77ddee91dc59dc 1281-1283,1299-1305,1318,1320-1326,1328
+  s_f8c7aa18955f27::t_0e5b0a55f82860 1370
+  s_f8c7aa18955f27::t_a03159b8044f04 2492-2537
+  s_f8c7aa18955f27::t_44c73f0cc150db 1245-1247,1348-1350,2491,2538-2557
+  s_f8c7aa18955f27::t_2e70e15c499188 1212,1220,1223-1225
+  s_f8c7aa18955f27::t_01e2dfc531c694 1217-1219,1306-1312
+  s_f8c7aa18955f27::t_33340556ed1972 242-249
+  s_f8c7aa18955f27::t_6860d8588caccc 2474-2475,2478-2490
+  s_f8c7aa18955f27::t_8a995ef854a160 1319,1327
+  s_f8c7aa18955f27::t_fd52357be17af1 1214-1216
+  s_f8c7aa18955f27::t_4cb60c139fb7af 1213
+  s_f8c7aa18955f27::t_b6682f71435009 2558
+  s_f8c7aa18955f27::t_c56d56d2cdeadb 794-796,808
+  s_f8c7aa18955f27::t_16b731d77a63b7 1886
+  s_f8c7aa18955f27::t_c08b1642ed17ca 171,1907
+onero_sdk/backend.py
+  s_f8c7aa18955f27::t_3a9cc98fa235e6 79,82-84
+onero_sdk/zero_offset_backend.py
+  s_f8c7aa18955f27::t_f80ccbe6ace0d3 102
+  s_f8c7aa18955f27::t_b21d727f32d16c 103
+tests/test_zero_offset.py
+  s_f8c7aa18955f27::t_fa9d874fc12b09 85
+onero_sdk/motion_executor.py
+  s_f8c7aa18955f27::t_2679209920e56e 60-61,72,109-115
+  s_f8c7aa18955f27::t_6fe51008aa117f 58-59,70-71,92-95,105-108,116-117,122-125,129
+onero_sdk/motion_strategy.py
+  s_f8c7aa18955f27::t_96a5595fa2ef54 229-230,306-307
+  s_f8c7aa18955f27::t_70b58c4db2a1c6 226-228,240-258,296-297,299,301-302,304,308-313,316-317
+  s_f8c7aa18955f27::t_9cb74e292afca3 314-315
+  s_f8c7aa18955f27::t_b73aaad93c8e02 205-209,212-215,218-219
+tests/test_velocity_safety.py
+  s_f8c7aa18955f27::t_a89aa38e1e2bc5 168-188
+  s_f8c7aa18955f27::t_28245a6f5bfef9 130-146
+  s_f8c7aa18955f27::t_b21835c3294bce 20,43-44,202-217
+  s_f8c7aa18955f27::t_ca6b33e39d8de3 1-16,21-32,37,42,45-61,80-94
+  s_f8c7aa18955f27::t_55edb10a648cde 18-19,33-36,147-167
+  s_f8c7aa18955f27::t_c9f3d387707334 95-110
+  s_f8c7aa18955f27::t_06408c96c8a764 17,38-41,111-129
+  s_f8c7aa18955f27::t_51779649fe94bc 189-201
+  s_f8c7aa18955f27::t_3c3bce0d42d81f 62-79
+onero_sdk/safety.py
+  s_f8c7aa18955f27::t_fc72dcb6457b57 264-271,274,279-292
+  s_f8c7aa18955f27::t_e6e13040f30ab1 22,65-66,70-77,106-112,275-278
+onero_sdk/model_registry.py
+  s_f8c7aa18955f27::t_f7601b158f085c 115-117,164-167
+configs/a1.yaml
+  s_f8c7aa18955f27::t_462cc2a4437e6f 18
+onero_sdk/config.py
+  s_f8c7aa18955f27::t_a300d576bce0db 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3a2c8a530b929e3f19f1e8bc3e5823752ee34237",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
