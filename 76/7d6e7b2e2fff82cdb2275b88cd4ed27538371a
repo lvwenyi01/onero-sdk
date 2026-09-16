@@ -1,0 +1,57 @@
+onero_sdk/__init__.py
+  s_f8c7aa18955f27::t_557a6e77a72ae3 26,119
+  s_f8c7aa18955f27::t_5d2561bce44857 8
+  s_f8c7aa18955f27::t_58646fc13c640a 27
+pyproject.toml
+  s_f8c7aa18955f27::t_196ec833f74560 26,30
+tests/test_protocol.py
+  s_f8c7aa18955f27::t_d1536034d5489d 276-315
+README.md
+  s_f8c7aa18955f27::t_427754e60269c5 49-50,56-57,889-891,894-910
+  s_f8c7aa18955f27::t_5161ca0d182b3b 40,913-936
+  s_f8c7aa18955f27::t_80239a04bdbd57 937
+README_en.md
+  s_f8c7aa18955f27::t_0976affa0b708d 862-864,867-885
+  s_f8c7aa18955f27::t_1b3c772a356c1f 39,888-911
+  s_f8c7aa18955f27::t_d6b76679dda975 912
+onero_sdk/arm.py
+  s_f8c7aa18955f27::t_35fa74111e982d 63,75-80,119-124,128,134,137
+onero_sdk/python_can_bus.py
+  s_f8c7aa18955f27::t_bcfba4402733a6 1-133
+onero_sdk/can_backend.py
+  s_f8c7aa18955f27::t_125119a9a6bb0e 45,48,52-53,58-59,61-63,71-77
+  s_f8c7aa18955f27::t_8789cb9925b7af 15,49
+onero_sdk/can_bus.py
+  s_f8c7aa18955f27::t_075ce6de35b333 14,60-70
+  s_62aef0d870e768::t_02c9305a005af3 71-72
+tests/test_python_can_bus.py
+  s_f8c7aa18955f27::t_07b5c2d010ea69 48
+  s_f8c7aa18955f27::t_9c8a496c292533 6,8,94-100
+  s_f8c7aa18955f27::t_ffab2e148ece98 1-5,7,9-47,49-55,57-68,71-74
+  s_f8c7aa18955f27::t_c6ca46a6543a37 56,69-70
+  s_f8c7aa18955f27::t_17782e50b2c02b 75-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "767d6e7b2e2fff82cdb2275b88cd4ed27538371a",
+  "prompts": {},
+  "sessions": {
+    "s_62aef0d870e768": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0a8c2-053e-751a-ad72-1842020d6ff2",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    },
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
