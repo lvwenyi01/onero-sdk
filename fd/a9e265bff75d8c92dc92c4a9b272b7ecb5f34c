@@ -1,0 +1,31 @@
+examples/generate_readme_gifs.py
+  s_f8c7aa18955f27::t_01c2b9413e851e 1070,1079-1085,1103-1105
+  s_f8c7aa18955f27::t_d85d5ed44318bf 1067,1069,1074-1078,1086-1087,1100-1102,1106,1123,1135-1136
+  s_f8c7aa18955f27::t_808082c5a745b2 1092-1098,1124-1133
+  s_f8c7aa18955f27::t_f687acd896d077 1109-1121
+  s_f8c7aa18955f27::t_b3a1c98bde45d1 1099
+  s_f8c7aa18955f27::t_7a88d72a028396 1122
+tests/test_dual_mujoco_alignment.py
+  s_f8c7aa18955f27::t_3b234f80058e72 8,46-64
+  s_f8c7aa18955f27::t_2420e930315fa3 65-66
+onero_sdk/dual_mujoco_backend.py
+  s_f8c7aa18955f27::t_ac519f008c302c 96-108
+  s_f8c7aa18955f27::t_012ea32d60dd94 253-329
+  s_f8c7aa18955f27::t_4ec61ee5cdaf39 13,22-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fda9e265bff75d8c92dc92c4a9b272b7ecb5f34c",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
