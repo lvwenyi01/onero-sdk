@@ -1,0 +1,46 @@
+configs/a1_dual.yaml
+  s_f8c7aa18955f27::t_3b94c823721514 8,14
+tests/test_mounting.py
+  s_f8c7aa18955f27::t_4fcc4df76468ee 49-65
+  s_f8c7aa18955f27::t_3783947f363ce8 67-87
+  s_f8c7aa18955f27::t_f6b6321e05c90d 66
+README_en.md
+  s_f8c7aa18955f27::t_70d067a144d1e7 151,157-158,204,206,815,818
+  s_f8c7aa18955f27::t_41822c1e7cb149 162-163
+onero_sdk/dual_mujoco_backend.py
+  s_f8c7aa18955f27::t_b4630c25cf9e41 139-158
+docs/guide_getting_started.md
+  s_f8c7aa18955f27::t_e557a609465290 68,74-76,94
+docs/guide_getting_started_en.md
+  s_f8c7aa18955f27::t_ed85c3af70c4e6 76,81-82,85-89,97
+docs/guide_coordinate_frames.md
+  s_f8c7aa18955f27::t_eb962559b6869f 16,18,20-21,23,26-27,30-32,34-40,42-44,47-49,52,54-63,66,68-71,73-82,84,86-91,94,96,100-103,105
+  s_f8c7aa18955f27::t_df9ae508b4875b 5
+onero_sdk/mounting.py
+  s_f8c7aa18955f27::t_4a540ef1e240e5 34-47,103-106,129,132
+README.md
+  s_f8c7aa18955f27::t_dedf7b71d5ec98 228,230
+  s_f8c7aa18955f27::t_b7999132064023 185-186
+  s_f8c7aa18955f27::t_7deff2a3a50524 174,180-181,842,845
+onero_sdk/dual_arm.py
+  s_f8c7aa18955f27::t_4f07983fdec62d 144,149,180,190
+  s_f8c7aa18955f27::t_010a900a614c1c 58-59,80-81
+onero_sdk/config.py
+  s_f8c7aa18955f27::t_31e67a2de1af6b 56,61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1df88bf99760e51ba35594311da1ec6ffde3fef6",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
