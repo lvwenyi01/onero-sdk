@@ -1,0 +1,44 @@
+tests/test_robustness_invalid_inputs.py
+  s_f8c7aa18955f27::t_fedde5a7479fe2 405
+README_en.md
+  s_f8c7aa18955f27::t_a9de974220c864 907-909
+README.md
+  s_f8c7aa18955f27::t_714491b50a0257 932-933
+tests/test_arm_contract.py
+  s_f8c7aa18955f27::t_e22e075ea1b78f 33-47
+  s_f8c7aa18955f27::t_7ca959948a8295 16-32,48
+onero_sdk/mujoco_backend.py
+  s_f8c7aa18955f27::t_6580846266ff2b 189
+onero_sdk/can_backend.py
+  s_f8c7aa18955f27::t_f3a76bad43b122 283
+tests/test_formal_verification.py
+  s_f8c7aa18955f27::t_dc44aa98b19169 343
+onero_sdk/safe_backend.py
+  s_f8c7aa18955f27::t_0c0262c251f6e3 115
+  s_f8c7aa18955f27::t_0e4b9f7b1e47d5 114
+onero_sdk/arm.py
+  s_f8c7aa18955f27::t_1a0f2d83061119 247-250,257-259,261,411-412,414-417
+onero_sdk/backend.py
+  s_f8c7aa18955f27::t_3a9cc98fa235e6 79,82-84
+onero_sdk/zero_offset_backend.py
+  s_f8c7aa18955f27::t_f80ccbe6ace0d3 102
+  s_f8c7aa18955f27::t_b21d727f32d16c 103
+tests/test_zero_offset.py
+  s_f8c7aa18955f27::t_fa9d874fc12b09 85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8f676332ecc8e4175cc8b6faf67d8fbda0432a1b",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
