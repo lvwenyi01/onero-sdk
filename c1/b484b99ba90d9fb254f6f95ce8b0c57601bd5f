@@ -1,0 +1,33 @@
+README_en.md
+  s_f8c7aa18955f27::t_e6a14cc6b5c164 147,149
+onero_sdk/arm.py
+  s_f8c7aa18955f27::t_6944d3f3f59ae5 1978-1982
+  s_f8c7aa18955f27::t_12016659d79bf1 1968-1977,1983-1984
+  s_f8c7aa18955f27::t_293ab2059c5b52 226,2282,2297
+configs/a1.yaml
+  s_f8c7aa18955f27::t_67a3aa749e25a5 9,12-14
+onero_sdk/motion_executor.py
+  s_f8c7aa18955f27::t_5b0a9bbbd89185 59-61,73,125-129,133-134
+tests/test_velocity_safety.py
+  s_f8c7aa18955f27::t_5844ce28defe00 113,118-122,125-126,131-132
+onero_sdk/model_registry.py
+  s_f8c7aa18955f27::t_ea59415181fcc5 41-42,122-125,194-195,247-248
+README.md
+  s_f8c7aa18955f27::t_e9b668d582b791 149,151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c1b484b99ba90d9fb254f6f95ce8b0c57601bd5f",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
