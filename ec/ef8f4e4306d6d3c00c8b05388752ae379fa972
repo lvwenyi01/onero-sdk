@@ -1,0 +1,29 @@
+tests/test_debugui.py
+  s_f8c7aa18955f27::t_d346929c8261d0 23-29,77-88,156-159
+onero_sdk/debugui/server.py
+  s_f8c7aa18955f27::t_b9e734895507fc 275-279,285-291
+docs/guide_debugui.md
+  s_f8c7aa18955f27::t_a5b65c95abd708 150,221-223
+onero_sdk/debugui/static/app.js
+  s_f8c7aa18955f27::t_b7dd6dd9553216 810,820
+  s_f8c7aa18955f27::t_b59f610ea04a5c 318,321-324,328-330,349-350
+  s_f8c7aa18955f27::t_ba39741b2352e5 160,200-226,230,234-235
+  s_f8c7aa18955f27::t_1473b465ee33ab 134,140,142
+  s_f8c7aa18955f27::t_5ebc0d8e833aad 29-34,37-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ecef8f4e4306d6d3c00c8b05388752ae379fa972",
+  "prompts": {},
+  "sessions": {
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
