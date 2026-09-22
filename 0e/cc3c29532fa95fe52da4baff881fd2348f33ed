@@ -1,0 +1,21 @@
+onero_sdk/arm.py
+  s_44012853e0971c::t_179f60c29c5e20 132,2473-2474,2476
+onero_sdk/can_backend.py
+  s_44012853e0971c::t_96c61792221354 49-50,61-62,72-76,351-353
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0ecc3c29532fa95fe52da4baff881fd2348f33ed",
+  "prompts": {},
+  "sessions": {
+    "s_44012853e0971c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c830-3a16-7630-9c3a-0d0f129e4db6",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "yangxiao <yangxiao@wondertechlabs.com>"
+    }
+  }
+}
