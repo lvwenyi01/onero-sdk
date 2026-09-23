@@ -1,0 +1,19 @@
+onero_sdk/python_can_bus.py
+  s_44012853e0971c::t_f687bfcd1a841a 16-42,81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "91db6832aa72c9f3c9e0c64cef415c9e25df2c00",
+  "prompts": {},
+  "sessions": {
+    "s_44012853e0971c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c830-3a16-7630-9c3a-0d0f129e4db6",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "yangxiao <yangxiao@wondertechlabs.com>"
+    }
+  }
+}
