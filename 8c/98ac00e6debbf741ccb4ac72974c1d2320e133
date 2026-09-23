@@ -1,0 +1,18 @@
+onero_sdk/_buffered_slcan.py
+  h_3ce05673bb5060 1-55
+onero_sdk/can_backend.py
+  h_3ce05673bb5060 338,340-341
+onero_sdk/python_can_bus.py
+  h_3ce05673bb5060 22-24,29-34,53-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8c98ac00e6debbf741ccb4ac72974c1d2320e133",
+  "prompts": {},
+  "humans": {
+    "h_3ce05673bb5060": {
+      "author": "yangxiao <yangxiao@wondertechlabs.com>"
+    }
+  }
+}
