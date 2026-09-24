@@ -1,0 +1,59 @@
+onero_sdk/python_can_bus.py
+  h_3ce05673bb5060 49-51,56-61,80,82-83
+  s_f8c7aa18955f27::t_bcfba4402733a6 96,105,110-126
+  s_44012853e0971c::t_f687bfcd1a841a 16-42,81
+onero_sdk/can_backend.py
+  s_a1b3fedf052a83::t_9bb7ddec158294 313
+  h_3ce05673bb5060 345,347-348
+  s_d3e2d4df102172::t_b239341dfc16af 237,251,266
+  s_44012853e0971c::t_3ae5ba047eecf8 304-312
+onero_sdk/_buffered_slcan.py
+  s_44012853e0971c::t_c99f3162a72a88 42,84
+  h_3ce05673bb5060 1-15,45-83,85-86
+  s_44012853e0971c::t_db2de82b47f7dc 16-41,43-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3bc64edff62e19a2f24e6df6afc2f2ed46240e93",
+  "prompts": {},
+  "humans": {
+    "h_3ce05673bb5060": {
+      "author": "yangxiao <yangxiao@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_44012853e0971c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c830-3a16-7630-9c3a-0d0f129e4db6",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "yangxiao <yangxiao@wondertechlabs.com>"
+    },
+    "s_a1b3fedf052a83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b09de053-5280-4f83-b9ae-ff6bbba881b3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    },
+    "s_d3e2d4df102172": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01ed8-76f3-7f60-a451-4cde4696723e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    },
+    "s_f8c7aa18955f27": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a06030-3a77-78b4-9acc-f86284501026",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
