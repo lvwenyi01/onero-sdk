@@ -1,0 +1,19 @@
+.github/workflows/publish.yml
+  s_ff2ae0775d4030::t_f487fb59038c2b 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3b8a113172438512d9860fad01f3ca9a53528e91",
+  "prompts": {},
+  "sessions": {
+    "s_ff2ae0775d4030": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0eb13-6215-73bc-99a1-3ba83b13ddd8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Albert Lv <lvwenyi@onerobot.com>"
+    }
+  }
+}
