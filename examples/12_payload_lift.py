@@ -15,6 +15,7 @@ import logging
 import math
 import os
 import sys
+import time
 
 # ROS Humble's Pinocchio conflicts with the venv Pinocchio/NumPy ABI.
 env = os.environ.copy()
@@ -34,7 +35,6 @@ from onero_sdk import Arm, MountingPreset
 logging.getLogger("onero_sdk.arm").addFilter(
     lambda record: "did not reach target within motion window" not in record.getMessage()
 )
-
 
 parser = argparse.ArgumentParser(description="A1 可配置负载举升演示")
 parser.add_argument("--mass", type=float, required=True, help="负载总质量 (kg)")
@@ -61,21 +61,20 @@ if (not all(map(math.isfinite, [args.mass, args.duration, args.speed, *args.cog]
                  "--duration 和 --speed 必须大于 0")
 motion_duration = args.duration / args.speed
 
-poses = [
-    ("收拢", [0.0, -0.5, 0.3, -1.0, 0.0, 0.5, 0.0]),
-    ("伸展承载", [0.3, -0.8, 0.5, -0.5, 0.2, 0.3, 0.0]),
-    ("抬升", [-0.2, -0.3, 0.1, -1.2, -0.1, 0.8, 0.0]),
-    ("收回", [0.0, -0.5, 0.3, -1.0, 0.0, 0.5, 0.0]),
-]
-if args.model == "A1L":  # A1L 的关节方向与 A1R 镜像
-    poses = [(name, [-q for q in joints]) for name, joints in poses]
+shoulder_mounting = {
+    "A1L": "humanoid_left", "A1R": "humanoid_right",
+}[args.model]
+if args.mounting != shoulder_mounting:
+    parser.error(f"本演示轨迹仅适用 {args.model} 肩装，请使用 "
+                 f"--mounting {shoulder_mounting}")
 
-# 人形肩装下镜像 world X，保持末端 Y/Z 不变。
-x_mirror_signs = [-1, 1, -1, -1, -1, -1, 1]
-poses += [
-    (f"反向{name}", [q * sign for q, sign in zip(joints, x_mirror_signs)])
-    for name, joints in poses
-]
+forward_folded = [math.pi / 2, -0.5, 0.3, -1.0, 0.0, 0.5, 0.0]
+forward_extended = [math.pi / 2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+vertical_lift = [0.0, -3.14, 0.0, 0.0, 0.0, 0.0, 0.0]
+if args.model == "A1L":  # A1L 的关节方向与 A1R 镜像
+    forward_folded = [-q for q in forward_folded]
+    forward_extended = [-q for q in forward_extended]
+    vertical_lift = [-q for q in vertical_lift]
 
 viewer = None
 if args.real:
@@ -88,9 +87,7 @@ else:
         raise SystemExit('仿真依赖未安装，请运行: pip install -e ".[sim,dynamics]"')
 
     backend = MujocoBackend(
-        model_name=args.model, realtime=True, mounting=args.mounting,
-        payload_mass=args.mass, payload_cog=args.cog,
-    )
+        model_name=args.model, realtime=True, mounting=args.mounting)
     viewer = mujoco.viewer.launch_passive(backend._model, backend._data)
     backend._on_step = viewer.sync
     arm = Arm(args.model, backend=backend, mounting=args.mounting)
@@ -105,24 +102,30 @@ try:
           f"重力(base): {arm.gravity_direction}")
 
     if args.real:
-        shoulder_mounting = {
-            "A1L": "humanoid_left", "A1R": "humanoid_right",
-        }[args.model]
-        if args.mounting != shoulder_mounting:
-            print(f"警告: 若实体是 {args.model} 人形肩装，必须改用 "
-                  f"--mounting {shoulder_mounting}；方向错误会产生反向重力补偿。")
         input("确认路径无障碍，按 Enter 执行（Ctrl+C 急停）...")
     else:
-        print("注意: 仿真验证负载与轨迹，不包含现场障碍物碰撞。")
+        print("注意: 仿真验证负载配置流程与轨迹，不是带载物理仿真，"
+              "也不包含现场障碍物碰撞。")
 
     try:
         initial = arm.enable()
         start_joints = list(initial.joints)
-        for name, joints in poses:
+        poses = [
+            ("向正前收拢", forward_folded, 0.0),
+            ("J1 向正前方水平满伸", forward_extended, 3.0),
+            ("返回启动位置", start_joints, 0.0),
+            ("竖直举升", vertical_lift, 3.0),
+            ("返回启动位置", start_joints, 0.0),
+        ]
+        for name, joints, hold_duration in poses:
             print(f"当前阶段：{name}")
             arm.movej(joints, duration=motion_duration)
+            if hold_duration:
+                deadline = time.monotonic() + hold_duration
+                while time.monotonic() < deadline:
+                    arm.servoj(joints)
+                    time.sleep(0.01)
 
-        arm.movej(start_joints, duration=motion_duration)
         arm.disable()
         print("已回到本次运行的初始位置，电机已失能。")
         if not args.real:

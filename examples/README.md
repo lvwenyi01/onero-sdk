@@ -294,3 +294,4 @@ ros2/01_joint_states → ros2/02_movej_service → ros2/03_trajectory → moveit
 | `10_speed_control.py` | 速度控制模式 |
 | `trajectory_planning_demo.py` | 轨迹规划演示 |
 | `15_dynamics_calibration.py` | 动力学参数标定 |
+| `28_motion_accuracy_test.py` | 使用棋盘格检查重复定位与笛卡尔运动精度 |
