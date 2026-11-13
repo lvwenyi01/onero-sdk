@@ -12,7 +12,7 @@ arm = Arm("A1R", channel="can0")
 arm.enable()
 try:
     # Leave the fully extended zero pose before solving Cartesian motion.
-    ready_joints = [0.3, -0.8, 0.5, -0.5, 0.2, 0.3, 0.0]
+    ready_joints = [0.3, -0.6, 0.5, -0.3, 0.2, 0.3, 0.0]
     arm.movej(ready_joints, duration=3.0)
 
     # Keep the current tool orientation and move 15 cm along base +X.
